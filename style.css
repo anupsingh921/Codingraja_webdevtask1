@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF5D8F;
+    height: 100vh;    
+}
+.container {
+	width: 539px;
+	height: 495px;
+}
+.header {
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+.main-content {
+	width: 100%;
+	height: 300px;
+	padding: 50px 40px;
+	background-color:  rgb(87, 231, 236);;
+	border-radius: 15px;
+	box-shadow: 0 25px 31px 0 rgba(0,0,0,0.5);
+}
+
+.text-area {
+	text-align: center;
+	text-decoration:solid;
+	text-shadow: 2px;
+	font-size: 23px;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	color: #141413;
+	line-height: 1.49;
+	
+    
+}
+.text-area .icon {
+    margin-right: 5px;
+}
+.main-content .writer {
+    text-transform: uppercase;
+	letter-spacing: 3px;
+	color: rgba(22, 20, 172, 0.959);
+	text-align: right;
+	margin-top: 20px;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: bolder;
+	
+}
+.main-content .button-area {
+	display: grid;
+	place-items: center;
+	margin-top: 20px;
+	padding: 10px 0;
+}
+.button-area .btn button {
+    background-color: #df1616;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    
+}
+.button-area button:active {
+    background-color: deepskyblue;
+}
